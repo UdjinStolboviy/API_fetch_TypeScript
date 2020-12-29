@@ -1,3 +1,31 @@
+npm init 
+
+npm init -y
+
+npm install -D typescript
+
+
+tsc -v
+
+npm i -g typescript
+
+
+tsc  app.ts
+
+
+tsc --init
+
+tsc -w
+
+tsc --watch
+
+clear
+
+
+---------------------------------------------------------------------
+
+
+
 function api<T>(url: string): Promise<T> {
   return fetch(url)
     .then(response => {
